@@ -6,28 +6,24 @@ In this challenge, you will deploy a Managed Application in the Azure portal. Yo
 
 ## Description
 
-1.	Clone this repository to your local machine.
+Deploying an Managed Application consist of two main steps, creating the Service Catalog Managed Application Definition and creating the Application. Service Managed Application Definition consist two files:
+    mainTemplate.json - an ARM template for resources beeing deployed
+    CreateUIDefinition.json - file used to define the user interface when creating Managed Applictaion
+Both of those files are provided for this challenge.
 
-    [A workshop for Azure Managed Applications](https://github.com/mabotova/ma-wth)
-
-2.	Create a ZIP file called `app.zip` that contains these 2 files at the root of the ZIP.
-
-- ma-wth / Student / Resources / Challenge 1 / createUiDefinition.json
-- ma-wth / Student / Resources / Challenge 1 / mainTemplate.json
-
-    **Note:** If you are using a Mac, it is important you don’t pick up any hidden files from your file system.
-
-3. In Azure portal create a new resource group, storage account and a storage container. Upload the app.zip file to the storage container. Use the following valies for storage account properties:
+1. Before You begin in Azure portal create a new resource group, storage account and a storage container. Use the following values for storage account properties:
     - Storage account name > Some unique value
     - Basics > Replication > Locally Redundant Storage (LRS)
     - Networking > Network Connectivity > Public endpoint (all networks)
     - For the rest > Leave the defauls
 
-4. Create a **Service Catalog Managed Application Definition** in the same resource group. 
+2. Upload packaged application to storage container
 
-5. Navigate to Service Catalog Managed Application Definition blade and create a **Service Catalog Managed Application** from it in a separate resource group (look for "Deploy from definition" button).
+3. Create a **Service Catalog Managed Application Definition** in the same resource group (*Using Portal will be easier). 
 
-6. Once the deployment is complete connect to the virtual machine via RDP. After verifing the remote connection, you may shut down the machine so you won’t be charged for VM uptime.
+4. Create a **Service Catalog Managed Application** from it in a separate resource group (look for "Deploy from definition" button).
+
+Once the deployment is complete connect to the virtual machine via RDP. After verifing the remote connection, you may shut down the machine so you won’t be charged for VM uptime.
 
 ## Success Criteria
 
@@ -39,3 +35,6 @@ In this challenge, you will deploy a Managed Application in the Azure portal. Yo
 
 - <https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal>
 - <https://azure.microsoft.com/en-us/blog/announcing-general-availability-of-azure-managed-applications-service-catalog/>
+- https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview
+- https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/create-uidefinition-overview
+- https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/publish-service-catalog-app?tabs=azure-powershell
