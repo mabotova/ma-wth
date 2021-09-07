@@ -9,6 +9,7 @@ In this challenge, you will deploy a Managed Application in the Azure portal. Yo
 Deploying an Managed Application consist of two main steps, creating the Service Catalog Managed Application Definition and creating the Application. Service Managed Application Definition consist two files:
    - mainTemplate.json - an ARM template for resources beeing deployed
    - CreateUIDefinition.json - file used to define the user interface when creating Managed Applictaion
+   
 Both of those files are provided for this challenge.
 
 1. Before You begin in Azure portal create a new resource group, storage account and a storage container. Use the following values for storage account properties:
