@@ -33,8 +33,8 @@ In this challenge, you will change the type of VM from Windows Server to Ubuntu,
 
 ## Learning Resources
 
-- <https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/create-uidefinition-overview>
-- <https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/test-createuidefinition>
-- <https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/microsoft-storage-storageaccountselector>
-- <https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-ssh-secured-vm-from-template>
-- <https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/test-toolkit>
+- [CreateUiDefinition.json for Azure managed application's create experience](https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/create-uidefinition-overview)
+- [Test your portal interface for Azure Managed Applications](https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/test-createuidefinition)
+- [StorageAccountSelector UI element](https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/microsoft-storage-storageaccountselector)
+- [Create a Linux virtual machine with ARM templates](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-ssh-secured-vm-from-template)
+- [ARM template test toolkit](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/test-toolkit)
