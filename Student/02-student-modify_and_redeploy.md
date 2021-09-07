@@ -26,7 +26,7 @@ In this challenge, you will change the type of VM from Windows Server to Ubuntu,
 
 ## Success Criteria
 
-1. Your files passes the Template Test Toolkit without any errors.
+1. Your files pass the Template Test Toolkit without any errors.
 2. You have a new resource group with your updated Managed Application deployed in Service Catalog.
 3. The new Managed Application contains a storage account.
 4. You can successfully SSH into your new Ubuntu virtual machine.
