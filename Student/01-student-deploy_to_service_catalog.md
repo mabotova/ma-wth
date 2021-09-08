@@ -38,4 +38,3 @@ Once the deployment is complete connect to the virtual machine via RDP. After ve
 - [Create a storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal)
 - [Announcing general availability of Azure Managed Applications Service Catalog](https://azure.microsoft.com/en-us/blog/announcing-general-availability-of-azure-managed-applications-service-catalog/)
 - [CreateUiDefinition.json for Azure managed application's create experience](https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/create-uidefinition-overview)
-- [Create and publish a Service Catalog Managed Application Definition](https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/publish-service-catalog-app?tabs=azure-powershell)
